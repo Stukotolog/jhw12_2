@@ -11,8 +11,7 @@ public class Main {
             bonus = 0;
         }
 
-
-    int balance = remain + replenishment + bonus;
+        int balance = remain + replenishment + bonus;
 
         System.out.println("Ваш платеж принят. На Вашем счете: " + balance + " р. " + "Ваш бонус составил: " + bonus + " p.,");
     }
